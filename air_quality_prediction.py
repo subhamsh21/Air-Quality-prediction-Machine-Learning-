@@ -136,6 +136,7 @@ plt.xlabel("Machine Learning Models")
 plt.ylabel("RMSE")
 plt.xticks(rotation=30, ha='right')
 plt.tight_layout()
+plt.savefig("rmse_comparison.png")
 plt.show()
 
 
@@ -159,6 +160,7 @@ plt.xlabel("Actual RSPM/PM10")
 plt.ylabel("Predicted RSPM/PM10")
 plt.title("Actual vs Predicted Air Quality Values")
 plt.tight_layout()
+plt.savefig("actual_vs_predicted.png")
 plt.show()
 
 print("\nProject Execution Completed!")
